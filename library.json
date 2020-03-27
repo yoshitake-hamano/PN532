@@ -1,0 +1,34 @@
+{
+    "name": "PN532",
+    "keywords": "PN532",
+    "description": "PN532 Library for Arduino",
+    "authors":
+    [
+        {
+            "name": "ELECHOUSE",
+            "email": "service@elechouse.com"
+        },
+        {
+            "name": "Seeed Studio",
+            "email": "https://www.seeedstudio.com"
+        }
+    ],
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/yoshitake-hamano/PN532.git"
+    },
+    "build": {
+        "flags": [
+            "-I NDEF",
+            "-I PN532",
+            "-I PN532_HSU",
+            "-I PN532_I2C",
+            "-I PN532_SPI",
+            "-I PN532_SWHSU"
+        ]
+    },
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
